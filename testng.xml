@@ -1,0 +1,15 @@
+<suite name="Solutions reach demo Test suite" verbose="1">
+    <test name="Solutions reach Login Test " group-by-instances="true">
+    <parameter name="username" value="standard_user"/>
+    <parameter name="password" value="secret_password"/>
+    	<classes>
+		<class name="com.smilereminder.logintest.LoginTest" />
+		<methods>
+			<include name="loginTest" />
+		</methods>
+	</classes>
+	</test>
+	
+</suite>
+
+    

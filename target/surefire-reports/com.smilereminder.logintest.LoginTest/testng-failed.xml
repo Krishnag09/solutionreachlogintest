@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.smilereminder.logintest.LoginTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.smilereminder.logintest.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.smilereminder.logintest.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.smilereminder.logintest.LoginTest] -->

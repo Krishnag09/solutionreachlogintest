@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-19T02:18:43Z" name="Solutions reach demo Test suite" finished-at="2019-03-19T02:18:57Z" duration-ms="13515">
+    <groups>
+    </groups>
+    <test started-at="2019-03-19T02:18:43Z" name="Solutions reach Login Test " finished-at="2019-03-19T02:18:57Z" duration-ms="13515">
+      <class name="com.smilereminder.logintest.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.smilereminder.logintest.LoginTest@217ed35e]" started-at="2019-03-18T20:18:43Z" name="setup" finished-at="2019-03-18T20:18:55Z" duration-ms="11795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.smilereminder.logintest.LoginTest@217ed35e]" started-at="2019-03-18T20:18:55Z" name="loginTest" finished-at="2019-03-18T20:18:57Z" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.smilereminder.logintest.LoginTest -->
+    </test> <!-- Solutions reach Login Test  -->
+  </suite> <!-- Solutions reach demo Test suite -->
+</testng-results>
